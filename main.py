@@ -1,6 +1,6 @@
 import numpy as np
 
-def generate_dataset(num_points=5000, num_dimensions=5, filename='data.txt'):
+def generate_dataset(num_points=4000, num_dimensions=5, filename='data.txt'):
     # Generate random data points
     data = np.random.rand(num_points, num_dimensions) * 100  # Scale points to 0-100
     
